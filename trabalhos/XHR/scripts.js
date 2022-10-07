@@ -7,9 +7,8 @@ function proxImg( img ){
         .then(resp => resp.blob())
         .then(blob => {
             const imageObjectURL = URL.createObjectURL(blob); 
-            console.log(imageObjectURL); 
             const proxImagem = document.createElement("img");
-            proxImg.src = imageObjectURL;
+            proxImagem.src = imageObjectURL;
             document.getElementById("placeholder").appendChild(proxImagem);
         })
 };                                                                                  
