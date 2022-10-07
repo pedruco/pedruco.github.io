@@ -3,7 +3,7 @@ const max = 15;
 const updateRate = 2000;
 
 function proxImg(img){ 
-    fetch('./img/'+img+'.jpg')
+    fetch('../img/'+img+'.jpg')
         .then(resp => resp.blob())
         .then(blob => {
             const imageObjectURL = URL.createObjectURL(blob); 
