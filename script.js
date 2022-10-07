@@ -1,6 +1,6 @@
 let item = 0; 
 const max = 15; 
-const uptadeRate = 2000; 
+const updateRate = 2000; 
 
 function proxImagem( img ){ 
     fetch('./img/'+img+".jpg")
