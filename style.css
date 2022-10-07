@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mukta&display=swap');
+
 body{
     background-color: #006eff;
 }
@@ -10,15 +12,17 @@ body{
 .titulocreditos{
     margin: auto;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
     color: #fff;
+    font-family: 'Anton', sans-serif;
 }
 
 .textocreditos{
     margin: auto;
     text-align: center;
-    color: #fff;
+    color: #000000;
     margin-top: 20px;
+    font-family: 'Anton', sans-serif;
 }
 
 
@@ -40,6 +44,7 @@ body{
 .titulotrabalho{
     color: #525252;
     margin-left: 20px;
+    font-family: 'Anton', sans-serif;
 }
 
 .header{
@@ -50,6 +55,13 @@ body{
 .titulo{
     padding: 40px;
     font-size: 50px;
+    font-family: 'Anton', sans-serif;
+}
+
+.titulo2{
+    padding: 40px;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
 }
 
 .container{
@@ -69,6 +81,7 @@ body{
     margin-bottom: 100px;
     background-color: #cecece;
     box-shadow: 5px 5px 50px #ffffff;
+    font-family: 'Anton', sans-serif;
 }
 
 .descricaotrabalho{
@@ -76,6 +89,7 @@ body{
     color: #525252;
     padding: 20px;
     padding-bottom: 50px;
+    font-family: 'Anton', sans-serif;
 }
 
 .perfil{
@@ -85,6 +99,7 @@ body{
     flex-direction: column;
     align-items: center;
     box-shadow: 5px 5px 50px #ffffff;
+    font-family: 'Anton', sans-serif;
 }
 
 .banner{
@@ -102,6 +117,7 @@ body{
     border-radius: 20px;
     transition: 1s;
     margin-right: 80px;
+    font-family: 'Anton', sans-serif;
 }
 
 .entrartrabalho:hover{
@@ -113,6 +129,7 @@ body{
     color: #525252;
     font-size: 25px;
     margin-bottom: 10px;
+    font-family: 'Anton', sans-serif;
 }
 
 .voltar{
@@ -120,6 +137,7 @@ body{
     text-decoration: none;
     color: #000000;
     transition: 0.6s;
+    font-family: 'Anton', sans-serif;
 }
 .voltar:hover{
     color: #006cfa;
@@ -136,12 +154,14 @@ body{
 .perfilconteudo{
     width: 800px;
     margin-top: 40px;
+    font-family: 'Anton', sans-serif;
 }
 
 .meunome{
     margin-left: 100px;
     color: #525252;
     margin-top: 10px;
+    font-family: 'Anton', sans-serif;
 }
 
 .trabalhos{
@@ -160,6 +180,11 @@ body{
     background-color: #a3a3a3;
 }
 
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
 .creditos{
     text-decoration: none;
     font-size: 30px;
@@ -168,6 +193,7 @@ body{
     padding: 8px;
     border-radius: 20px;
     transition: 1s;
+    font-family: 'Anton', sans-serif;
 }
 
 .creditos:hover{
@@ -178,11 +204,12 @@ body{
 
 
 
-@media screen and (min-width: 3840px){
+@media screen and (min-width: 3000px) and (max-width: 8180px){
 
     .titulo{
-        font-size: 150px;
+        font-size: 180px;
     }
+
     .fotoperfil{
         width: 600px;
         margin-left: -600px;
@@ -191,7 +218,7 @@ body{
     .meunome{
         margin-left: 900px;
         color: #525252;
-        font-size: 80px;
+        font-size: 90px;
     }
 
     .descricao{
@@ -221,6 +248,55 @@ body{
     
     .creditos{
         font-size: 100px;
+        padding: 9px;
+        margin: 15px;
+    }
+
+}
+
+@media screen and (min-width: 1800px) and (max-width:3000px){
+
+    .titulo{
+        font-size: 120px;
+    }
+    .fotoperfil{
+        width: 380px;
+        margin-left: -470px;
+    }
+
+    .meunome{
+        margin-left: 450px;
+        color: #525252;
+        font-size: 60px;
+    }
+
+    .descricao{
+        color: #525252;
+        font-size: 80px;
+        margin-bottom: 10px;
+    }
+
+    .perfilconteudo{
+        width: 1400px;
+        margin-top: 200px;
+    }
+
+    .perfil{
+        height: 1000px;
+    }
+
+    .banner{
+        width: 100%;
+        height: 290px;
+    }
+
+    .trabalhos{
+        font-size: 50px;
+        padding: 9px;
+    }
+    
+    .creditos{
+        font-size: 50px;
         padding: 9px;
     }
 
@@ -387,64 +463,42 @@ body{
         font-size: 15px;
         padding: 4px;
     }
+
 }
 
-@media screen and (min-width: 3840px){
+
+
+
+@media screen and (min-width: 3000px) and (max-width:8040px){
     .trabalho{
-        width: 1500px;
-        height: 300px;
+        width: 2000px;
+        height: 400px;
     }
 
     .titulotrabalho{
-        font-size: 60px;
+        font-size: 80px;
         margin-left: 20px;
     }
 
     .entrartrabalho{
         padding: 5px;
-        font-size: 70px;
-    }
-
-    .titulo{
-        padding: 40px;
-        font-size: 120px;
+        font-size: 80px;
     }
 
     .voltar{
-        font-size: 40px;
+        font-size: 60px;
     }
+
+    .titulo2{
+        font-size: 150px;
+    }
+
 }
 
-@media screen and (min-width: 2000px){
+@media screen and (min-width: 2000px) and (max-width: 3000px){
     .trabalho{
         width: 1200px;
-        height: 300px;
-    }
-
-    .titulotrabalho{
-        font-size: 60px;
-        margin-left: 20px;
-    }
-
-    .entrartrabalho{
-        padding: 5px;
-        font-size: 70px;
-    }
-
-    .titulo{
-        padding: 40px;
-        font-size: 120px;
-    }
-
-    .voltar{
-        font-size: 40px;
-    }
-}
-
-@media screen and (min-width: 1600px){
-    .trabalho{
-        width: 900px;
-        height: 00px;
+        height: 250px;
     }
 
     .titulotrabalho{
@@ -457,15 +511,15 @@ body{
         font-size: 50px;
     }
 
-    .titulo{
-        padding: 40px;
-        font-size: 120px;
-    }
-
     .voltar{
         font-size: 40px;
     }
+
+    .titulo2{
+        font-size: 100px;
+    }
 }
+
 
 @media screen and (max-width: 820px){
     .trabalho{
@@ -482,11 +536,6 @@ body{
         padding: 5px;
         border-radius: 20px;
         margin-right: 40px;
-    }
-
-    .titulo{
-        padding: 40px;
-        font-size: 40px;
     }
 
 }
@@ -507,12 +556,7 @@ body{
         font-size: 20px;
         margin-right: 20px;
     }
-
-    .titulo{
-        padding: 40px;
-        font-size: 30px;
-    }
-    
+ 
 }
 
 @media screen and (max-width: 400px){
@@ -530,14 +574,70 @@ body{
         padding: 5px;
         font-size: 15px;
         margin-right: 20px;
-    }
-
-    .titulo{
-        padding: 40px;
-        font-size: 30px;
-    }
-
-    
+    } 
 }
 
 
+@media screen and (min-width: 3000px) and (max-width:8000px){
+    #placeholder img{
+        width: 1300px;
+        height: 1300px;
+    }
+
+    .voltar{
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width: 2000px) and (max-width:3000px){
+    #placeholder img{
+        width: 900px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    #placeholder img{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    #placeholder img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    #placeholder img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 3000px) and (max-width:8000px){
+    .titulocreditos{
+        font-size: 100px;
+    }
+    .textocreditos{
+        font-size: 60px;
+    }
+}
+@media screen and (min-width: 2200px) and (max-width:3000px){
+    .titulocreditos{
+        font-size: 50px;
+    }
+    .textocreditos{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .textocreditos{
+        font-size: 15px;
+    }
+}
