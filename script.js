@@ -1,5 +1,5 @@
 let img = 0; 
-const max = 9; 
+const max = 15; 
 const uptadeRate = 2000; 
 
 function proxImagem( img ){ 
