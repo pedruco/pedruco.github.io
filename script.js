@@ -1,17 +1,17 @@
 let item = 0; 
 const max = 15; 
-const updateRate = 2000; 
+const updateRate = 2000;
 
-function proxImg( img ){ 
-    fetch('./img/'+img+".jpg")
+function proxImg(img){ 
+    fetch('./img/'+img+'.jpg')
         .then(resp => resp.blob())
         .then(blob => {
             const imageObjectURL = URL.createObjectURL(blob); 
-            const proxImagem = document.createElement("img");
+            const proxImagem = document.createElement('img');
             proxImagem.src = imageObjectURL;
-            document.getElementById("placeholder").appendChild(proxImagem);
+            document.getElementById('placeholder').appendChild(proxImagem);
         })
-};                                                                                  
+}
 
 window.onload = setInterval( ()=>{
     if(item <= max){
