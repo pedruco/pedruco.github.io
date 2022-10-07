@@ -24,13 +24,18 @@ body{
 
 #placeholder{
     margin: auto;
-    margin-top: 20px;
     display: flex;
     align-items: center;
+    flex-direction: column;
+}
+
+#placeholder img{
+    width: 500px;
+    height: 500px;
+    margin: 30px;
     border: solid 5px #525252;
     border-radius: 100px; 
     width: 800px;
-    flex-direction: column;
 }
 
 .titulotrabalho{
