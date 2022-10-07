@@ -1,4 +1,4 @@
-let img = 0; 
+let item = 0; 
 const max = 9; 
 const uptadeRate = 2000; 
 
