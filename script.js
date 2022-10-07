@@ -16,7 +16,7 @@ function proxImagem( img ){
 
 window.onload = setInterval( ()=>{
     if(item <= max){
-        proxImg(item++ % (max+1));
+        proxImagem(item++ % (max+1));
         let scrollPoint = window.scrollY + window.innerHeight;
         window.scrollTo({top: scrollPoint, behavior: 'smooth'});
     } else{
