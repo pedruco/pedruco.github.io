@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #006eff;
+}
+
+.titulocreditos{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.textocreditos{
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+#placeholder{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border: solid 5px #525252;
+    border-radius: 100px; 
+    width: 800px;
+    flex-direction: column;
+}
+
+.titulotrabalho{
+    color: #525252;
+    margin-left: 20px;
+}
+
+.header{
+    text-align: center;
+    color: #525252;
+    background-color: #cecece;
+}
+.titulo{
+    padding: 40px;
+    font-size: 50px;
+}
+
+.container{
+    background-color: #006eff;
+    margin-bottom: 100px;
+} 
+
+.trabalho{
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #cecece;
+    box-shadow: 5px 5px 50px #ffffff;
+}
+
+.descricaotrabalho{
+    margin-left: 50px;
+    color: #525252;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.perfil{
+    background-color: #cecece;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 50px #ffffff;
+}
+
+.banner{
+    width: 100%;
+    height: 190px;
+
+}
+
+.entrartrabalho{
+    text-decoration: none;
+    font-size: 30px;
+    color: #0058ca;
+    background-color: #dddddd;
+    padding: 8px;
+    border-radius: 20px;
+    transition: 1s;
+    margin-right: 80px;
+}
+
+.entrartrabalho:hover{
+    transition: 1s;
+    color: #006cfa;
+    background-color: #a3a3a3;
+}
+.descricao{
+    color: #525252;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.voltar{
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.6s;
+}
+.voltar:hover{
+    color: #006cfa;
+    transition: 0.6s;
+}
+
+.fotoperfil{
+    width: 200px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -300px;
+}
+
+.perfilconteudo{
+    width: 800px;
+    margin-top: 40px;
+}
+
+.meunome{
+    margin-left: 100px;
+    color: #525252;
+    margin-top: 10px;
+}
+
+.trabalhos{
+    text-decoration: none;
+    font-size: 30px;
+    color: #0058ca;
+    background-color: #dddddd;
+    padding: 8px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.trabalhos:hover{
+    transition: 1s;
+    color: #006cfa;
+    background-color: #a3a3a3;
+}
+
+.creditos{
+    text-decoration: none;
+    font-size: 30px;
+    color: #0058ca;
+    background-color: #dddddd;
+    padding: 8px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.creditos:hover{
+    transition: 1s;
+    color: #006cfa;
+    background-color: #a3a3a3;
+}
+
+
+
+@media screen and (min-width: 3840px){
+
+    .titulo{
+        font-size: 150px;
+    }
+    .fotoperfil{
+        width: 600px;
+        margin-left: -600px;
+    }
+
+    .meunome{
+        margin-left: 900px;
+        color: #525252;
+        font-size: 80px;
+    }
+
+    .descricao{
+        color: #525252;
+        font-size: 100px;
+        margin-bottom: 10px;
+    }
+
+    .perfilconteudo{
+        width: 2000px;
+        margin-top: 300px;
+    }
+
+    .perfil{
+        height: 1300px;
+    }
+
+    .banner{
+        width: 100%;
+        height: 450px;
+    }
+
+    .trabalhos{
+        font-size: 100px;
+        padding: 9px;
+    }
+    
+    .creditos{
+        font-size: 100px;
+        padding: 9px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    .fotoperfil{
+        width: 200px;
+        margin-left: -200px;
+    }
+
+    .meunome{
+        margin-left: 240px;
+        color: #525252;
+    }
+
+    .descricao{
+        color: #525252;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .perfilconteudo{
+        width: 600px;
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 690px){
+    .fotoperfil{
+        width: 180px;
+        margin-left: -150px;
+    }
+
+    .meunome{
+        margin-left: 280px;
+        color: #525252;
+        font-size: 20px;
+    }
+
+    .descricao{
+        color: #525252;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .perfilconteudo{
+        width: 500px;
+        margin-top: 40px;
+    }
+
+    .trabalhos{
+        font-size: 25px;
+        padding: 8px;
+    }
+    
+    .creditos{
+        font-size: 25px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .fotoperfil{
+        width: 130px;
+        margin-left: -110px;
+        margin-top: 90px;
+    }
+
+    .meunome{
+        margin-left: 220px;
+        color: #525252;
+        font-size: 18px;
+    }
+
+    .descricao{
+        color: #525252;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .perfilconteudo{
+        width: 350px;
+        margin-top: 40px;
+    }
+
+    .trabalhos{
+        font-size: 20px;
+        padding: 6px;
+    }
+    
+    .creditos{
+        font-size: 20px;
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .fotoperfil{
+        width: 130px;
+        margin-left: -160px;
+        margin-top: 90px;
+    }
+
+    .meunome{
+        margin-left: 120px;
+        color: #525252;
+        font-size: 18px;
+    }
+
+    .descricao{
+        color: #525252;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .perfilconteudo{
+        width: 340px;
+        margin-top: 40px;
+    }
+
+    .trabalhos{
+        font-size: 20px;
+        padding: 6px;
+    }
+    
+    .creditos{
+        font-size: 20px;
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .fotoperfil{
+        width: 80px;
+        margin-left: -140px;
+        margin-top: 130px;
+    }
+
+    .meunome{
+        margin-left: 120px;
+        color: #525252;
+        font-size: 18px;
+    }
+
+    .descricao{
+        color: #525252;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .perfilconteudo{
+        width: 340px;
+        margin-top: 40px;
+    }
+
+    .trabalhos{
+        font-size: 20px;
+        padding: 6px;
+    }
+    
+    .creditos{
+        font-size: 20px;
+        padding: 6px;
+    }
+}
+
+@media screen and (min-width: 3840px){
+    .trabalho{
+        width: 1500px;
+        height: 300px;
+    }
+
+    .titulotrabalho{
+        font-size: 60px;
+        margin-left: 20px;
+    }
+
+    .entrartrabalho{
+        padding: 5px;
+        font-size: 70px;
+    }
+
+    .titulo{
+        padding: 40px;
+        font-size: 120px;
+    }
+
+    .voltar{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    .trabalho{
+        width: 1200px;
+        height: 300px;
+    }
+
+    .titulotrabalho{
+        font-size: 60px;
+        margin-left: 20px;
+    }
+
+    .entrartrabalho{
+        padding: 5px;
+        font-size: 70px;
+    }
+
+    .titulo{
+        padding: 40px;
+        font-size: 120px;
+    }
+
+    .voltar{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .trabalho{
+        width: 900px;
+        height: 00px;
+    }
+
+    .titulotrabalho{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .entrartrabalho{
+        padding: 5px;
+        font-size: 50px;
+    }
+
+    .titulo{
+        padding: 40px;
+        font-size: 120px;
+    }
+
+    .voltar{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .trabalho{
+        width: 500px;
+        height: 100px;
+    }
+
+    .titulotrabalho{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .entrartrabalho{
+        padding: 5px;
+        border-radius: 20px;
+        margin-right: 40px;
+    }
+
+    .titulo{
+        padding: 40px;
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 520px){
+    .trabalho{
+        width: 350px;
+        height: 100px;
+    }
+
+    .titulotrabalho{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .entrartrabalho{
+        padding: 5px;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .titulo{
+        padding: 40px;
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .trabalho{
+        width: 270px;
+        height: 100px;
+    }
+
+    .titulotrabalho{
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    .entrartrabalho{
+        padding: 5px;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .titulo{
+        padding: 40px;
+        font-size: 30px;
+    }
+
+    
+}
+
+
