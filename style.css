@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mukta&family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap');
 
 *{
     margin: 0;
@@ -14,15 +14,15 @@ body{
     text-align: center;
     margin-top: 50px;
     color: #fff;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .textocreditos{
     margin: auto;
     text-align: center;
-    color: #000000;
+    color: #fff;
     margin-top: 20px;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 
@@ -44,7 +44,7 @@ body{
 .titulotrabalho{
     color: #525252;
     margin-left: 20px;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .header{
@@ -55,13 +55,13 @@ body{
 .titulo{
     padding: 40px;
     font-size: 50px;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .titulo2{
     padding: 40px;
     font-size: 50px;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .container{
@@ -81,7 +81,7 @@ body{
     margin-bottom: 100px;
     background-color: #cecece;
     box-shadow: 5px 5px 50px #ffffff;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .descricaotrabalho{
@@ -89,7 +89,7 @@ body{
     color: #525252;
     padding: 20px;
     padding-bottom: 50px;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .perfil{
@@ -99,7 +99,7 @@ body{
     flex-direction: column;
     align-items: center;
     box-shadow: 5px 5px 50px #ffffff;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .banner{
@@ -117,7 +117,7 @@ body{
     border-radius: 20px;
     transition: 1s;
     margin-right: 80px;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .entrartrabalho:hover{
@@ -129,7 +129,7 @@ body{
     color: #525252;
     font-size: 25px;
     margin-bottom: 10px;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .voltar{
@@ -137,7 +137,8 @@ body{
     text-decoration: none;
     color: #000000;
     transition: 0.6s;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
+    font-weight: 800;
 }
 .voltar:hover{
     color: #006cfa;
@@ -154,14 +155,14 @@ body{
 .perfilconteudo{
     width: 800px;
     margin-top: 40px;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .meunome{
     margin-left: 100px;
     color: #525252;
     margin-top: 10px;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .trabalhos{
@@ -193,7 +194,7 @@ body{
     padding: 8px;
     border-radius: 20px;
     transition: 1s;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 
 .creditos:hover{
