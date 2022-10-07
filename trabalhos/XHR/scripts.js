@@ -10,7 +10,7 @@ function proxImagem( img ){
             console.log(imageObjectURL); 
             const proxImg = document.createElement("img");
             proxImg.src = imageObjectURL;
-            document.getElementById("placeholder").appendChild(proxImg);
+            document.getElementById("placeholder").appendChild(proxImagem);
         })
 };                                                                                  
 
