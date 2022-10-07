@@ -3,10 +3,19 @@ body{
     background-color: rgb(211, 255, 249);
 }
 
+
 #placeholder{
+    margin: auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    border: solid 3px rgb(0, 0, 0);
+    flex-direction: column;
+}
+
+#placeholder img{
+    width: 800px;
+    height: 800px;
+    margin: 30px;
+    border: solid 5px #525252;
     border-radius: 100px; 
 }
+
