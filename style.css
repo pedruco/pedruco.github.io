@@ -344,32 +344,32 @@ body{
     }
 
     .trabalhos{
-        font-size: 20px;
-        padding: 6px;
+        font-size: 15px;
+        padding: 4px;
     }
     
     .creditos{
-        font-size: 20px;
-        padding: 6px;
+        font-size: 15px;
+        padding: 4px;
     }
 }
 
 @media screen and (max-width: 460px){
     .fotoperfil{
         width: 80px;
-        margin-left: -140px;
+        margin-left: -110px;
         margin-top: 130px;
     }
 
     .meunome{
-        margin-left: 120px;
+        margin-left: 150px;
         color: #525252;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .descricao{
         color: #525252;
-        font-size: 20px;
+        font-size: 17px;
         margin-bottom: 10px;
     }
 
@@ -379,13 +379,13 @@ body{
     }
 
     .trabalhos{
-        font-size: 20px;
-        padding: 6px;
+        font-size: 15px;
+        padding: 4px;
     }
     
     .creditos{
-        font-size: 20px;
-        padding: 6px;
+        font-size: 15px;
+        padding: 4px;
     }
 }
 
