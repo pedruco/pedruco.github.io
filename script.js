@@ -2,13 +2,13 @@ let item = 0;
 const max = 15; 
 const updateRate = 2000; 
 
-function proxImagem( img ){ 
+function proxImg( img ){ 
     fetch('./img/'+img+".jpg")
         .then(resp => resp.blob())
         .then(blob => {
             const imageObjectURL = URL.createObjectURL(blob); 
             console.log(imageObjectURL); 
-            const proxImg = document.createElement("img");
+            const proxImagem = document.createElement("img");
             proxImg.src = imageObjectURL;
             document.getElementById("placeholder").appendChild(proxImagem);
         })
@@ -16,7 +16,7 @@ function proxImagem( img ){
 
 window.onload = setInterval( ()=>{
     if(item <= max){
-        proxImagem(item++ % (max+1));
+        proxImg(item++ % (max+1));
         let scrollPoint = window.scrollY + window.innerHeight;
         window.scrollTo({top: scrollPoint, behavior: 'smooth'});
     } else{
