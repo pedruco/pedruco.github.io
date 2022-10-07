@@ -1,5 +1,5 @@
 let img = 0; 
-const max = 80; 
+const max = 9; 
 const uptadeRate = 2000; 
 
 function proxImagem( img ){ 
@@ -13,14 +13,13 @@ function proxImagem( img ){
             document.getElementById("placeholder").appendChild(proxImg);
         })
 };                                                                                  
-window.onload = setInterval(function(){
-    proxImagem( img++ % (max + 1));
-    let  scrolloint = window.scrollY + window.innerHeight;
-    window.scrollTo({top: scrollPoint, behavior: 'smooth'});
-}, uptadeRate);
 
-window.onload = function(){
-	for(img = 0; img < 5; img++){
-		proxImagem( img );
-	}
-};
+window.onload = setInterval( ()=>{
+    if(item <= max){
+        proxImg(item++ % (max+1));
+        let scrollPoint = window.scrollY + window.innerHeight;
+        window.scrollTo({top: scrollPoint, behavior: 'smooth'});
+    } else{
+        item = 0;
+    }
+}, updateRate);
