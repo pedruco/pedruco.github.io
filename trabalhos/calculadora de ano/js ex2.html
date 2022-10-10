@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+<head>
+
+	<meta charset ="UTF-8" />
+	<meta http-equiv ="X-UA-Compatible" content="IE=edge"/>
+	<script src ="scripts.js" defer></script>
+	<link rel="stylesheet" href="style.css"/>
+    <title>Página incial</title>
+
+</head>
+
+<body>
+
+    <div class="tabs">
+        <button id="btn-0" class="tab"> Calculadora Ano-bissexto </button>
+        <button id="btn-1" class="tab"> Conversor C para F </button>
+        <button id="btn-2" class="tab"> Gerador de Tabuada </button>
+    </div> 
+    <div class="container">
+        <div class="wrapper" id="wrapper-0">
+            <h1>Calcular ano bissexto</h1>
+<form name="form_main">
+  <label for="date">Data:</label>
+  <input name="date" id="date" size="20" type="date" /><br />
+  <label for="type">Tipo:</label>
+  <span id="type"></span><br />
+  
+
+  <input
+         name="button"
+         value="Gerar"
+         onclick="calcularBissexto()"
+         type="button"
+         />
+</form>
+        </div>
+
+        <div class="wrapper" id="wrapper-1">
+            <h1>Conversor C para F</h1>
+            <label>Temperatura °C:</label>
+            <input type="number" id="entrada-ctof"/>
+            <label>Resultado:</label>
+            <input type="text" id="resultado-ctof" disabled/>
+        </div>
+
+        <div class="wrapper" id="wrapper-2">
+            <h1> Gerador de Tabuada </h1>
+            <label>Valor da Tabuada:</label>
+            <input type="number" id="valor-tabuada" value="1"/>
+            <button class="calcula-btn" id="cria-tab"> Gerar </button>
+            <button class="calcula-btn" id="cria-tabela"> Gerar tabuada do 1 ao 10 </button>
+            <div id="result-wrapper"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
